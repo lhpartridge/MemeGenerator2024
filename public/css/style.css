@@ -1,0 +1,142 @@
+:root {
+    --parisienne: "Parisienne", cursive;
+    --nautigal: "The Nautigal", cursive;
+    --qwitcher:  "Qwitcher Grypen", cursive;
+    --clicker:  "Clicker Script", cursive;
+    --fuggles:  "Fuggles", cursive;
+    --bilbo:  "Bilbo Swash Cap";
+    --kolker:  "Kolker Brush", cursive;
+    --island:  "Island Moments", cursive;
+    --inspiration:  "Inspiration", cursive;
+    --flowers:  "Send Flowers", cursive;
+    --splash:  "Splash", cursive;
+    --puppies:  "Puppies Play", cursive;
+    --architects: "Architects Daughter", cursive;
+    --dosis: "Dosis", sans-serif;
+    --grotesque: "Darker Grotesque", sans-serif;
+    --mansalva: "Mansalva", sans-serif;
+    --thasadith: "Thasadith", sans-serif;
+    --pompiere: "Pompiere", sans-serif;
+    --bellota: "Bellota Text", sans-serif;
+    --mako: "Mako", sans-serif;
+    --bubbler: "Bubbler One", sans-serif;
+    --gaegu: "Gaegu", sans-serif;
+    --alumni: "Alumni Sans Pinstripe", sans-serif;
+}
+  
+
+  
+
+  body {
+    background-color: rgb(5, 139, 229);
+  }
+  
+  header {
+    height: 105px;
+    background-color: purple;
+    background: linear-gradient(90deg, #672280, 1.18%, #A626D3 100% );
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+
+
+  .header-img {
+    height: 100%;
+    margin-right: 6px;
+
+  }
+
+  .header-title {
+    font-size: 20px;
+    margin-right: auto;
+  }
+
+  .header-project {
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+
+  .heading, h1 {
+    font-family: var(--grotesque);
+    font-family: var(--alumni);
+    font-family: var(--bubbler);
+    font-family: var(--gaegu);
+    font-family: var(--grotesque);
+    font-family: var(--mansalva);
+    font-family: var(--thasadith);
+    font-family: var(--pompiere);
+    font-size: 3em;
+    font-size: 2em;
+    color: white;
+  }
+
+  .subheading {
+    font-family: var(--pompiere);
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .figure-caption {
+    font-family: var(--pompiere);
+    font-size: 2em;
+    color: white;
+  }
+
+
+
+  .meme-section {
+    padding: 80px 0;
+  }
+
+  .meme-img-div {
+    position: relative;
+  }
+
+  .meme-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 3px;
+  }
+
+  .meme-text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-family: Impact, sans-serif;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:  
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+
+  }
+
+  .bottom {
+    bottom: 0;
+  }
+
+  .top {
+    top: 0;
+  }
+  .submit-btn {
+    margin: 20px 0;
+    background-color: rebeccapurple;
+    background: linear-gradient(90deg, #672280, 1.18%, #A626D3 100% );
+
+  }
